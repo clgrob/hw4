@@ -69,29 +69,6 @@ jQuery(function(){
   });
 
 
-//
-// jQuery(function(){
-//   let apiKeyNytMovies = "417baefb2d5c4c7ab346fd38015a8f4d";
-//   let urlNytMovies = "https://api.nytimes.com/svc/movies/v2/critics/.json?&api-key=" + apiKeyNytMovies
-//   jQuery.get(urlNytMovies, function(data) {
-//     console.log(data);
-//     jQuery(".row").empty();
-//     let movie = data.results;
-//     let html = '<div class "col-4">';
-//     html = html + '<div class="card">';
-//     html = html + '<div class="card-body">';
-//     html = html + '<h4 class="card-title">' + movie.display_title + '</h4>';
-//     html = html + '<p class="card-text">' + movie.summary_short + '</p>';
-//     html = html + '</div></div></div>';
-//     jQuery(".row").append(html);
-//   })
-//   jQuery(".row").fadeIn(2000);
-//   });
-
-
-
-// NYT Movie Review API
-// "417baefb2d5c4c7ab346fd38015a8f4d"
 
 
 // CTA Alerts API format
