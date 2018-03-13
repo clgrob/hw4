@@ -1,0 +1,40 @@
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(http://chicagopatterns.com/wp-content/uploads/2015/04/logan.jpg);
+    background-position: 25% 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+body {
+font-family: 'Gentium Book Basic', serif;
+}
+
+h1 {
+font-family: 'Shrikhand', cursive;
+}
+
+h3 {
+font-family: 'Shrikhand', cursive;
+}
+
+h5 {
+font-family: 'Shrikhand', cursive;
+}
+
+
+/* font-family: 'Shrikhand', cursive;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Gentium Book Basic', serif; */
+
+
+
+
+
+
+/* url(http://chicagopatterns.com/wp-content/uploads/2015/04/logan.jpg) */
+/* url(http://thebiggestnews.com/wp-content/uploads/2015/10/logan-square-nw-from-the-el.jpg) */
