@@ -9,8 +9,7 @@ jQuery(function(){})
     jQuery(".parks").empty();
     for (let i=0; i<10; i++){
       let park = data.data[i];
-      let html ='<div class = "col">';
-      html = html + '<div class="card">';
+      let html ='<div class="card">';
       html = html + '<img class="card-img-top" src="' + park.image.url + '">';
       html = html + '<div class="card-body">';
       html = html + '<h4 class="card-title"><a href=' + park.url+'>' + park.title + '</h4>' + '</a>';
@@ -30,10 +29,9 @@ jQuery(function(){
   jQuery.get(urlNytNews, function(data) {
     console.log(data);
     jQuery(".news").empty();
-    for (let i=1; i<8; i++){
+    for (let i=1; i<10; i++){
       let article = data.results[i];
-      let html = '<div class = "col">';
-      html = html + '<div class="card">';
+      let html = '<div class="card">';
       html = html + '<img class="card-img-top" src="' + article.multimedia[4].url + '">';
       html = html + '<div class="card-body">';
       html = html + '<h4 class="card-title"><a href=' + article.url+'>' + article.title + '</h4>' + '</a>';
@@ -55,9 +53,8 @@ jQuery(function(){
       jQuery(".buzzfeed").empty();
       for (let i=1; i<10; i++){
         let report = data.articles[i];
-        let html = '<div class = "col">';
-        html = html + '<div class="card">';
-    html = html + '<img class="card-img-top" src="' + report.urlToImage + '">';
+        let html = '<div class="card">';
+        html = html + '<img class="card-img-top" src="' + report.urlToImage + '">';
         html = html + '<div class="card-body">';
         html = html + '<h4 class="card-title"><a href=' + report.url+'>' + report.title + '</h4>' + '</a>';
         html = html + '<p class="card-text">' + report.description + '</p>';

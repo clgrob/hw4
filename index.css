@@ -14,27 +14,19 @@ font-family: 'Gentium Book Basic', serif;
 
 h1 {
 font-family: 'Shrikhand', cursive;
+
 }
 
 h3 {
 font-family: 'Shrikhand', cursive;
+color: gray;
+text-align: center;
+padding: 10px
 }
 
 h5 {
 font-family: 'Shrikhand', cursive;
+color: red;
+text-align: center;
+padding: 10px
 }
-
-
-/* font-family: 'Shrikhand', cursive;
-font-family: 'Philosopher', sans-serif;
-font-family: 'Lobster', cursive;
-font-family: 'Lobster Two', cursive;
-font-family: 'Gentium Book Basic', serif; */
-
-
-
-
-
-
-/* url(http://chicagopatterns.com/wp-content/uploads/2015/04/logan.jpg) */
-/* url(http://thebiggestnews.com/wp-content/uploads/2015/10/logan-square-nw-from-the-el.jpg) */
