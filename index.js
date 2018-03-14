@@ -29,10 +29,10 @@ jQuery(function(){
   jQuery.get(urlNytNews, function(data) {
     console.log(data);
     jQuery(".news").empty();
-    for (let i=1; i<10; i++){
+    for (let i=0; i<20; i++){
       let article = data.results[i];
       let html = '<div class="card">';
-      html = html + '<img class="card-img-top" src="' + article.multimedia[4].url + '">';
+      // html = html + '<img class="card-img-top" src="' + article.multimedia[0].url + '">'; note - some articles didn't have images - seemed to break the loop
       html = html + '<div class="card-body">';
       html = html + '<h4 class="card-title"><a href=' + article.url+'>' + article.title + '</h4>' + '</a>';
       html = html + '<p class="card-text">' + article.abstract + '</p>';
@@ -51,7 +51,7 @@ jQuery(function(){
     jQuery.get(urlNews, function(data) {
       console.log(data);
       jQuery(".buzzfeed").empty();
-      for (let i=1; i<10; i++){
+      for (let i=0; i<10; i++){
         let report = data.articles[i];
         let html = '<div class="card">';
         html = html + '<img class="card-img-top" src="' + report.urlToImage + '">';
